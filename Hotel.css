@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .listitems{
     display: flex;
@@ -12,9 +13,10 @@
     cursor: pointer;
 } 
 
+
 a{
     text-decoration: none;
-    color:hsl(16, 100%, 50%) ;
+    color:hsl(16, 100%, 50%);
 }
 span{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,6 +34,7 @@ span{
 .overview>.imagedetails{
     display: flex;
     justify-content: center;
+    font:bold
 }  
 .imagedetails>button{
     width: 90px;
@@ -49,8 +52,13 @@ span{
   font-weight: 800;
   
 }
+.imagedetails>button:hover{
+    background-color: #FFFFFF;
+    color: #FF4742;
+}
+
 h1{
-    color: hsl(0, 0%, 0%);
+    color: #000000;
     margin-left: 10px;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -95,6 +103,9 @@ cursor: pointer;
     
 
 }
+.Chinese :hover{
+opacity: 2;
+}
 .Marathi{
     display: flex;
     height: 150px;
@@ -106,6 +117,9 @@ cursor: pointer;
     opacity: 0.8; 
     cursor: pointer;
 }
+.Marathi :hover{
+    opacity: 2;
+    }
 .Marathi>h2{
     font-size: large;
     
@@ -129,6 +143,9 @@ cursor: pointer;
     margin-left: 15%;
     cursor: pointer;
 }
+.Gujarati :hover{
+    opacity: 2;
+    }
 .Gujarati>h2{
     font-size: large;
     
@@ -222,13 +239,13 @@ margin-left: 10px;
     font-size: xx-large;
 }
 .Service1>p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     font-size: medium;
 }
 .container2>.Service2{
     height: 100px;
     width: 400px;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     border-radius: 5%;
     margin-left: 40px;
     box-shadow: #000000;
@@ -241,7 +258,7 @@ margin-left: 10px;
     .container2>.Service3{
         height: 100px;
         width: 400px;
-        background-color: aliceblue;
+        background-color: #f0f8ff;
         border-radius: 5%;
         margin-left: 60px;
         
@@ -278,6 +295,10 @@ font-size: xx-large;
   margin-top: 10px;
   margin-bottom: 10px;
         }
+        #button:hover{
+            background: #FFFFFF;
+            color: #FF4742;
+        }
         hr{
             background-color: hwb(0 0% 100% / 0.175);
         }
@@ -293,7 +314,24 @@ font-size: xx-large;
 .container{
     display: flex;
 }
-
+#bill{
+    width: 90px;
+ height: 40px;
+  background: #FF4742;
+  border: 1px solid #FF4742 ;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
 
 
 
